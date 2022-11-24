@@ -3,42 +3,146 @@ body{
     padding: 0;
 }
 .header{
+   background-color: #1f1005ee;
+   display: flex; /* đưa các phần tử thành 1 hàng ngang */
+   justify-content: space-between;
+   height: 100px;
+   position: fixed; /* bám vào thành cuar trang*/
+   width: 100%;
+
+}
+.right{
     display: flex;
+    align-items: center;
+    color: rgb(212,191,146);
+    margin-right: 80px;
+}
+.menu{
+    display: flex;
+    align-items: center;
+    color: rgb(212,191,146);
+    margin-left: 80px;
+}
+.img-logo{
+    width: 95px;
+}
+.img-banner{
     width: 100%;
-    height: 100px;
-    background-color: #1f1005ee;
-    box-sizing: border-box;
-    position: fixed;
-    top: 0;
-    justify-content: space-around;
-    
-
-}
-
-.header .image
-{
-   position: absolute;
-   margin: auto;
-   display: flex;
-    width: 79px;
-    height: 100px;
-    margin-top: 120x;
     
 }
-.header .menu
+ti-more-alt
 {
-   display: flex;
-   color: rgb(224,203,155);
-    margin-top: 25px;
-   margin-left: -300px;
-    
-    
-}
-.header .right
-{
-    display: flex;
-   color: rgb(224,203,155);
-   margin-top: 25px;
-   margin-right: -300px;
+   margin-left: 20px;
    
+}
+.ti-align-left{
+    margin-right: 5px;
+}    
+.content {
+    margin-top: 116px;
+    
+   
+}
+.content .h1{
+    text-align: center;
+}
+.content-text1{
+    text-align: center;
+}
+.video-1{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 58px;
+
+}
+.knot{
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+    margin-bottom: 100px;
+   
+   
+}
+.knot .button{
+   
+    width: 260px;
+    height: 35px;
+    background-color: rgb(31,15,7);
+    border-radius: 30px;
+    border-width: 1px;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    color: antiquewhite;
+}
+.button:hover{
+   
+   color: rgb(31,15,7) ;
+   background-color: white;
+}
+.content
+{
+    margin-bottom: 58px;
+}
+.header-2{
+    width: 1365px;
+    height: 517px;
+    background-color:rgb(31,15,7) ;
+    color:rgb(241,234,218);
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+
+}
+
+
+.header-2 .dh1{
+    position: absolute;
+    margin-top: 105px;
+    margin-left: 462px;
+   
+}
+.header-2 .p1{
+    position: absolute;
+    margin-top: 245px;
+    margin-left: 315px;
+}
+.header-2 .p2{
+    position: absolute;
+    margin-top: 310px;
+    margin-left: 315px;
+}
+.header-2 .knot2{
+    display: flex;
+    position: absolute;
+   
+    margin-top: 385px;
+    margin-left: 590px;
+}
+.knot2 .button-2{
+    width: 204px;
+    height: 33px;
+    background-color: rgb(242,228,186);
+    border-radius: 30px;
+    border-width: 1px;
+   border-color:rgb(242,228,186) ;
+    text-align: center;
+    color: rgb(31,15,7);
+}
+.button-2:hover{
+    background-color:rgb(31,15,7) ;
+    color:rgb(242,228,186) ;
+}
+.img-2{
+    display: flex;
+    
+}
+.img-chair{
+    width: 50%;
+
+}
+.letter{
+   
+    background-color: rgb(241,234,218);
+    
 }
