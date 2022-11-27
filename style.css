@@ -219,7 +219,7 @@ ti-more-alt
     margin-bottom: 80px;
 }
 .box1{
-    width: 360px;
+    width: 380px;
     height: 455px;
    border: 1px solid #1F0F07 ;
    background-image: url(https://donggia.vn/wp-content/uploads/2022/08/noi-that-dong-gia3.jpg);
@@ -243,7 +243,7 @@ ti-more-alt
     padding-top: 10px;
 }
 .box2{
-    width: 360px;
+    width: 380px;
     height: 455px;
     border: 1px solid #1F0F07 ;
    background-image: url(https://donggia.vn/wp-content/uploads/2022/08/thi-cong-noi-that-biet-thu-dep.jpg);
@@ -268,7 +268,7 @@ ti-more-alt
     padding-top: 10px;
 }
 .box3{
-    width: 360px;
+    width: 380px;
     height: 455px;
     border: 1px solid #1F0F07 ;
     background-image: url(https://donggia.vn/wp-content/uploads/2020/07/Giuong-go-oc-cho.jpg);
@@ -314,14 +314,15 @@ ti-more-alt
 }
 .end{
     width: 100%;
-    height: 500px;
+    height: 460px;
     background-color: #1F0F07;
+    
 }
 .location{
     position: absolute;
-    color: white;
+    color: rgb(242,228,186);
     margin-top: 70px;
-    margin-left: 68px;
+    margin-left: 40px;
     margin-right: 40px;
 }
 
@@ -334,7 +335,7 @@ ti-more-alt
     border: 1px solid white;
     border-radius: 5px;
     background-color: #1F0F07;
-    color: white;
+    color: rgb(242,228,186);
     font-size: 14px;
     padding-top: 6px;
 }
@@ -345,10 +346,222 @@ ti-more-alt
 .location-addr{
     font-size: 14px;
     font-weight: 200;
-    line-height: 20px;
+    line-height: 23px;
+}
+.location-h2-name{
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 1.5em;
+    letter-spacing: 2px;
 }
 .location .name{
     font-size: 14px;
     font-weight: 200;
     
+}
+.information{
+    position: absolute;
+    margin-top:65px ;
+    margin-left: 530px;
+    color: rgb(242,228,186);
+   
+}
+.information-h2
+{
+   font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 1.5em;
+    letter-spacing: 2px;
+}
+.information-phone .name{
+    font-size: 14px;
+    font-weight: 200;
+    line-height: 23px;
+}
+.information-knot{
+
+
+}
+.information-facebook{
+    width: 31px;
+    height: 31px;
+    border: 1px solid white;
+    border-radius: 9px;
+    background-color: #1F0F07;
+    color: rgb(242,228,186);
+}
+.information-instagram{
+    width: 31px;
+    height: 31px;
+    border: 1px solid white;
+  margin-left: 5px;
+   margin-right: 5px;
+    border-radius: 9px;
+    background-color: #1F0F07;
+    color: rgb(242,228,186);
+}
+.information-youtube{
+    width: 31px;
+    height: 31px;
+    border: 1px solid white;
+   margin-right: 5px;
+    border-radius: 9px;
+    background-color: #1F0F07;
+    color: rgb(242,228,186);
+}
+.information-pinterest{
+    width: 31px;
+    height: 31px;
+    border: 1px solid white;
+    border-radius: 9px;
+    background-color: #1F0F07;
+    color: rgb(242,228,186);
+}
+.information-map-alt{
+    width: 31px;
+    height: 31px;
+    position: absolute;
+    justify-content: center;
+    justify-items: center;
+    margin-top: 40px;
+    left: 0;
+    border: 1px solid white;
+    border-radius: 9px;
+    background-color: #1F0F07;
+    color: rgb(242,228,186);
+}
+.ti-map-alt{
+    padding-left: 2px;
+}
+.support{
+    position: absolute;
+    margin-top:65px ;
+    margin-left: 804px;
+    color: rgb(242,228,186);
+}
+.support-h2{
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 1.5em;
+    letter-spacing: 2px;
+}
+.support-p{
+    font-size: 14px;
+    font-weight: 200;
+    line-height: 20px;
+}
+.support-button{
+    width: 160px;
+    height: 31px;
+    border: 1px solid white;
+    border-radius: 9px;
+    background-color: #1F0F07;
+    color: rgb(242,228,186);
+    font-size: 15px;
+    position: absolute;
+    margin-top: 5px;
+}
+.support-img{
+   position: relative;
+    margin-top: 10px;
+}
+.sp-name{
+    font-weight: 900;
+}
+.sp-name-end{
+    font-weight: 50;
+}
+
+.author{
+    
+    position: absolute;
+    margin-top: 455px;
+    text-align: center;
+    background-color:#1F0F07;
+    border-top: 0.5px solid rgb(189, 182, 245);
+    width: 100%;
+    height: 50px;
+   
+   
+}
+.text-author{
+    color: white;
+    font-size: 14px;
+    font-weight: 100;
+    font-size: 14px;
+    letter-spacing: 2px;
+   line-height: 15px;
+}
+.booking{
+    position: absolute;
+    margin-top:65px ;
+    margin-left: 1050px;
+    color: rgb(242,228,186);
+}
+.location-content{
+    color: rgb(242,228,186);
+    font-size: 14px;
+    font-weight: 200;
+    line-height: 20px;
+}
+.booking-h2{
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 1.5em;
+    letter-spacing: 2px;
+}
+.icon-human{
+    width: 20px;
+    
+}
+input{
+    border: 1px solid #e0cb9b;  ;
+    border-top: #1F0F07 ;
+    border-right: #1F0F07 ;
+    border-left: #1F0F07 ;
+    background-color: #1F0F07;
+    outline: none;
+    margin-top: 15px;
+    color: white;
+   
+}
+
+.css-input{
+   width: 100%;
+}
+.css-input::placeholder{
+    color: white;
+}
+.two-input{
+    display: flex;
+    justify-content: space-between;
+}
+.first-input{
+    width: 55%;
+}
+.second-input{
+    display: flex;
+    align-items: center;
+}
+.ti-check{
+    color: #e0cb9b;
+}
+.decor::placeholder{
+    color: #e0cb9b;  
+ text-align: center;
+}
+.submit{
+    border: 1px solid #e0cb9b;
+    border-top: #1F0F07;
+    border-right: #1F0F07;
+    border-left: #1F0F07 ;
+    background-color: #1F0F07;
+   height: 33px;
+   width: 160px;
+   color: #e0cb9b;
+   padding: 0;
 }
