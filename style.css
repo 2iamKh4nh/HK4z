@@ -1,0 +1,567 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #F1EADA; 
+}
+*{
+    font-family: 'Roboto', sans-serif;
+     box-sizing: border-box;    
+    
+}
+.header{
+   background-color: #382110e8;
+   display: flex; /* đưa các phần tử thành 1 hàng ngang */
+   justify-content: space-between;
+   height: 100px;
+   position: fixed; /* bám vào thành cuar trang*/
+   width: 100%;
+
+}
+.right{
+    display: flex;
+    align-items: center;
+    color: rgb(212,191,146);
+    margin-right: 80px;
+}
+.menu{
+    display: flex;
+    align-items: center;
+    color: rgb(212,191,146);
+    margin-left: 80px;
+}
+.img-logo{
+    width: 95px;
+}
+.img-banner{
+    width: 100%;
+    
+}
+ti-more-alt
+{
+   margin-left: 20px;
+   
+}
+.ti-align-left{
+    margin-right: 5px;
+}    
+.content {
+    margin-top: 116px;
+    
+   
+}
+.content .h1{
+    text-align: center;
+    letter-spacing: 5px;
+    font-weight: 400;
+    margin: 40px 0;
+}
+.content .content-text1{
+    text-align: center;
+    font-size: 16.4px;
+    font-weight: 200;
+    line-height: 30px;
+}
+.video-1{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 58px;
+
+}
+.knot{
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+    margin-bottom: 100px;
+   
+   
+}
+.knot .button{
+   
+    width: 260px;
+    height: 35px;
+    background-color: rgb(31,15,7);
+    border-radius: 30px;
+    border-width: 1px;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    transition: 0.4s;
+    color: antiquewhite;
+}
+.button:hover{
+   
+   color: rgb(31,15,7) ;
+   background-color: white;
+}
+.content
+{
+    margin-bottom: 58px;
+}
+.header-2{
+    width: 100%;
+    height: 517px;
+    background-color:rgb(31,15,7) ;
+    color:rgb(241,234,218);
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+
+}
+
+
+.header-2 .dh1{
+    position: absolute;
+    margin-top: 95px;
+    margin-left: 395px;
+   
+}
+.dh1 .h1{
+    font-size: 37px;
+    letter-spacing: 5px;
+    font-weight: 400;
+
+}
+.header-2 .p1{
+    position: absolute;
+    font-size: 16.8px;
+    font-weight: 200;
+    line-height: 30px;
+    margin-top: 245px;
+    margin-left: 270px;
+}
+.header-2 .p2{
+    position: absolute;
+    font-size: 16.8px;
+    font-weight: 200;
+    color: white;
+    line-height: 30px;
+    margin-top: 310px;
+    margin-left: 255px;
+}
+.header-2 .knot2{
+    display: flex;
+    position: absolute;
+   
+    margin-top: 400px;
+    margin-left: 590px;
+}
+.knot2 .button-2{
+    width: 204px;
+    height: 33px;
+    background-color: rgb(242,228,186);
+    border-radius: 30px;
+    border-width: 1px;
+   border-color:rgb(242,228,186) ;
+    text-align: center;
+    color: rgb(31,15,7);
+    transition: 0.4s;
+}
+.button-2:hover{
+    background-color:rgb(31,15,7) ;
+    color:rgb(242,228,186) ;
+}
+.img-2{
+    display: grid;
+   box-sizing: border-box;
+  grid-template-columns: 50% 50%;
+
+  margin-bottom: 100px;
+  
+}   
+.img-chair{
+   width: 100%;
+   height: 100%;
+   
+
+}
+.letter{
+    height: 100%;
+    background-color: rgb(241, 217, 161);
+    display: flex;
+    flex-direction: column;
+  justify-content: space-around;
+}
+.letter-1{
+  text-align: center;
+  color: #1F0F07;
+  font-size: 50px;
+  
+}
+.letter-p
+{
+    text-align: center;
+    color: #1F0F07;
+  
+}
+.letter-bottom
+{
+    text-align: center;
+    color: #1F0F07;
+  
+}
+.text-end{
+    text-align: center;
+    margin-bottom: 100px;
+}
+.text-end .text-top{
+    color: #1F0F07;
+    font-size: 40px;
+}
+.text-end .text-content{
+    color: #1F0F07;
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    margin-bottom: 80px;
+}
+.box1{
+    width: 380px;
+    height: 455px;
+   border: 1px solid #1F0F07 ;
+   background-image: url(https://donggia.vn/wp-content/uploads/2022/08/noi-that-dong-gia3.jpg);
+   background-size: 100% 50%;
+    background-repeat: no-repeat;
+    
+}
+.box .box1 .content{
+  position: absolute;
+  margin-top: 250px;
+  padding-left: 20px;
+}
+.box1-h1{
+    font-size: 18px;
+    color: #000000;
+}
+.box1-content{
+    color: #1F0F07;
+}
+.box1-end{
+    padding-top: 10px;
+}
+.box2{
+    width: 380px;
+    height: 455px;
+    border: 1px solid #1F0F07 ;
+   background-image: url(https://donggia.vn/wp-content/uploads/2022/08/thi-cong-noi-that-biet-thu-dep.jpg);
+   background-size: 100% 50%;
+    background-repeat: no-repeat;
+    margin-left: 23px;
+    margin-right: 23px;
+}
+.box .box2 .content{
+    position: absolute;
+    margin-top: 250px;
+    padding-left: 20px;
+}
+.box2-h1{
+    font-size: 18px;
+    color: #000000;
+}
+.box2-content{
+    color: #1F0F07;
+}
+.box2-end{
+    padding-top: 10px;
+}
+.box3{
+    width: 380px;
+    height: 455px;
+    border: 1px solid #1F0F07 ;
+    background-image: url(https://donggia.vn/wp-content/uploads/2020/07/Giuong-go-oc-cho.jpg);
+    background-size: 100% 50%;
+    background-repeat: no-repeat;
+    
+}
+.box .box3 .content{
+    position: absolute;
+    margin-top: 250px;
+    padding-left: 20px;
+}
+.box3-h1{
+    font-size: 18px;
+    color: #000000;
+}
+.box3-content{
+    color: #1F0F07;
+}
+.box3-end{
+    padding-top: 10px;
+}
+.knot-end{
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+.button-end{
+    width: 192px;
+    height: 30px;
+    background-color: #1F0F07;
+    border-radius: 30px;
+    border-width: 1px;
+   border-color:rgb(242,228,186) ;
+    text-align: center;
+    transition: 0.4s;
+    color: rgb(242,228,186);
+}
+.button-end:hover{
+    background-color:rgb(242,228,186) ;
+    color: #1F0F07;
+}
+.end{
+    width: 100%;
+    height: 460px;
+    background-color: #1F0F07;
+    
+}
+.location{
+    position: absolute;
+    color: rgb(242,228,186);
+    margin-top: 70px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.location-button{
+    display: flex;
+    justify-content: center;
+   text-align: center;
+    width: 280px;
+    height: 33px;
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color: #1F0F07;
+    color: rgb(242,228,186);
+    font-size: 14px;
+    padding-top: 6px;
+}
+
+.ti-map-alt{
+    padding-right: 5px;
+}
+.location-addr{
+    font-size: 14px;
+    font-weight: 200;
+    line-height: 23px;
+}
+.location-h2-name{
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 1.5em;
+    letter-spacing: 2px;
+}
+.location .name{
+    font-size: 14px;
+    font-weight: 200;
+    
+}
+.information{
+    position: absolute;
+    margin-top:65px ;
+    margin-left: 530px;
+    color: rgb(242,228,186);
+   
+}
+.information-h2
+{
+   font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 1.5em;
+    letter-spacing: 2px;
+}
+.information-phone .name{
+    font-size: 14px;
+    font-weight: 200;
+    line-height: 23px;
+}
+.information-knot{
+
+
+}
+.information-facebook{
+    width: 31px;
+    height: 31px;
+    border: 1px solid white;
+    border-radius: 9px;
+    background-color: #1F0F07;
+    color: rgb(242,228,186);
+}
+.information-instagram{
+    width: 31px;
+    height: 31px;
+    border: 1px solid white;
+  margin-left: 5px;
+   margin-right: 5px;
+    border-radius: 9px;
+    background-color: #1F0F07;
+    color: rgb(242,228,186);
+}
+.information-youtube{
+    width: 31px;
+    height: 31px;
+    border: 1px solid white;
+   margin-right: 5px;
+    border-radius: 9px;
+    background-color: #1F0F07;
+    color: rgb(242,228,186);
+}
+.information-pinterest{
+    width: 31px;
+    height: 31px;
+    border: 1px solid white;
+    border-radius: 9px;
+    background-color: #1F0F07;
+    color: rgb(242,228,186);
+}
+.information-map-alt{
+    width: 31px;
+    height: 31px;
+    position: absolute;
+    justify-content: center;
+    justify-items: center;
+    margin-top: 40px;
+    left: 0;
+    border: 1px solid white;
+    border-radius: 9px;
+    background-color: #1F0F07;
+    color: rgb(242,228,186);
+}
+.ti-map-alt{
+    padding-left: 2px;
+}
+.support{
+    position: absolute;
+    margin-top:65px ;
+    margin-left: 804px;
+    color: rgb(242,228,186);
+}
+.support-h2{
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 1.5em;
+    letter-spacing: 2px;
+}
+.support-p{
+    font-size: 14px;
+    font-weight: 200;
+    line-height: 20px;
+}
+.support-button{
+    width: 160px;
+    height: 31px;
+    border: 1px solid white;
+    border-radius: 9px;
+    background-color: #1F0F07;
+    color: rgb(242,228,186);
+    font-size: 15px;
+    position: absolute;
+    margin-top: 5px;
+}
+.support-img{
+   position: relative;
+    margin-top: 10px;
+}
+.sp-name{
+    font-weight: 900;
+}
+.sp-name-end{
+    font-weight: 50;
+}
+
+.author{
+    
+    position: absolute;
+    margin-top: 455px;
+    text-align: center;
+    background-color:#1F0F07;
+    border-top: 0.5px solid rgb(189, 182, 245);
+    width: 100%;
+    height: 50px;
+   
+   
+}
+.text-author{
+    color: white;
+    font-size: 14px;
+    font-weight: 100;
+    font-size: 14px;
+    letter-spacing: 2px;
+   line-height: 15px;
+}
+.booking{
+    position: absolute;
+    margin-top:65px ;
+    margin-left: 1050px;
+    color: rgb(242,228,186);
+}
+.location-content{
+    color: rgb(242,228,186);
+    font-size: 14px;
+    font-weight: 200;
+    line-height: 20px;
+}
+.booking-h2{
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 1.5em;
+    letter-spacing: 2px;
+}
+.icon-human{
+    width: 20px;
+    
+}
+input{
+    border: 1px solid #e0cb9b;  ;
+    border-top: #1F0F07 ;
+    border-right: #1F0F07 ;
+    border-left: #1F0F07 ;
+    background-color: #1F0F07;
+    outline: none;
+    margin-top: 15px;
+    color: white;
+   
+}
+
+.css-input{
+   width: 100%;
+}
+.css-input::placeholder{
+    color: white;
+}
+.two-input{
+    display: flex;
+    justify-content: space-between;
+}
+.first-input{
+    width: 55%;
+}
+.second-input{
+    display: flex;
+    align-items: center;
+}
+.ti-check{
+    color: #e0cb9b;
+}
+.decor::placeholder{
+    color: #e0cb9b;  
+ text-align: center;
+}
+.submit{
+    border: 1px solid #e0cb9b;
+    border-top: #1F0F07;
+    border-right: #1F0F07;
+    border-left: #1F0F07 ;
+    background-color: #1F0F07;
+   height: 33px;
+   width: 160px;
+   color: #e0cb9b;
+   padding: 0;
+}
